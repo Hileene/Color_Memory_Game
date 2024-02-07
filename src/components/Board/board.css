@@ -1,0 +1,17 @@
+.board {
+  height: 600px;
+  width: 564px;
+  display: flex;
+  margin: auto;
+  position: relative;
+  justify-content: center;
+  gap: 0.5em;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+}
