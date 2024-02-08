@@ -1,0 +1,12 @@
+.cards {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  background: #ffffff;
+  border: 2px solid #c0c0c0;
+  border-radius: 10px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
