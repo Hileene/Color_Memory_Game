@@ -2,10 +2,10 @@
   height: 405px;
   width: 505px;
   display: flex;
-  margin: 2em auto;
+  margin: 2rem auto;
   position: relative;
   justify-content: center;
-  gap: 0.5em;
+  gap: 0.5rem;
   background: #f8f8f8;
   border-radius: 10px;
 }
@@ -15,5 +15,5 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 0.5em;
+  gap: 0.5rem;
 }
