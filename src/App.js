@@ -4,7 +4,7 @@ import Start from './components/Start/Start'
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Board />
       <Start />
     </div>
