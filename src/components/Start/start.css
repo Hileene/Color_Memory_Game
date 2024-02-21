@@ -1,0 +1,12 @@
+.start-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 10px;
+  background: #fff;
+  border: 2px solid #c0c0c0;
+  font-size: 2rem;
+  font-weight: 500;
+}
