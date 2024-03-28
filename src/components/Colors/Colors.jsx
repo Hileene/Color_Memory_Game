@@ -18,19 +18,25 @@ function Colors() {
   //GENERATE COLORS SEQUENCE:
 
   // Define colors for the easy level
-  const easyColors = {
-    red: '#FF5733',
-    yellow: '#FFFF00',
-    green: '#00FF00',
-  }
+  const easyColorsArray = ['#FF5733', '#FFFF00', '#00FF00']
 
   // Define colors for the difficult level
-  const difficultColors = {
-    red: '#FF5733',
-    yellow: '#FFFF00',
-    green: '#00FF00',
-    blue: '#0000FF',
-    pink: '#FF69B4',
+  const difficultColorsArray = [
+    '#FF5733',
+    '#FFFF00',
+    '#00FF00',
+    '#0000FF',
+    '#FF69B4',
+  ]
+
+  const generateRandomSequence = (level) => {
+    const colors = level === 'easy' ? easyColorsArray : difficultColorsArray
+    const sequence = []
+    for (let i = 0; i < sequence.length; i++) {
+      const randomIndex = Math.floor(Math.random() * colors.length)
+      sequence.push(colors[randomIndex])
+    }
+    return sequence
   }
 
   return <div>Colors</div>
